@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/cc1plus.exe -E -quiet -v -idirafter ",
+                "/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../lib/../include/w32api -idirafter ",
+                "/usr/lib/gcc/x86_64-pc-cygwin/9.3.0/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api - -mtune=generic -march=x86-64"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/c/Mingw-w64-x86_64-15.1.0-release-posix-seh-ucrt-rt_v12-rev0/mingw64/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
