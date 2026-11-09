@@ -9,3 +9,4 @@ int main(){
     printf("%d %d\n",aa(1,2),bb(1,2));
     return 0;
 }
+
